@@ -1,0 +1,53 @@
+.parent{
+    background: grey;
+    min-height: 90vh;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.parent div{
+    min-height: 150px;
+    padding: 1rem;
+}
+
+.c1{
+    background: red;
+}
+.c2{
+    background: green;
+    /* position: relative;
+    top: 20px;
+    right:20px; */
+    /* position: fixed;
+    bottom: 5px; */
+    position: sticky;
+    top: 0px;
+    
+}
+.c3{
+    background: blue;
+    color: white;
+}
+
+/* position notes 
+
+> Relative
+ refers with it's original position
+ doesn't break the flow of the position
+
+ > absolute
+ break the flow of the html
+ convert block to inline display
+ by default the parent will be html for other parents they need to be defined
+
+ >fixed
+ fixed on the defined position
+ parent will be the view port
+
+ > sticky 
+ doesn't break the flow of html
+ It will be sticky until the parent element is on view port.
+
+
+
+*/
